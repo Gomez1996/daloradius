@@ -41,7 +41,7 @@ $descriptors2 = array();
 $descriptors2[] = array(
                             'type' => 'textarea',
                             'content' => 'FreeIspRadius',
-                            'readmore' => array( 'href' => 'https://freeisparadius.com',
+                            'readmore' => array( 'href' => 'https://freeispradius.com',
                                                  'title' => 'Read More',
                                                  'label' => 'Read More',
                                                ),

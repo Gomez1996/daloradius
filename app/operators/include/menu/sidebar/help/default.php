@@ -42,7 +42,7 @@ if (isset($configValues['DALORADIUS_VERSION'])) {
 $descriptors1[] = array(
                             'type' => 'textarea',
                             'content' => sprintf('FreeIspRadius%s', $content),
-                            'readmore' => array( 'href' => 'https://freeisparadius.com',
+                            'readmore' => array( 'href' => 'https://freeispradius.com',
                                                  'title' => 'Read More',
                                                  'label' => 'Read More',
                                                ),
