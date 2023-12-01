@@ -40,8 +40,8 @@ $descriptors2 = array();
 
 $descriptors2[] = array(
                             'type' => 'textarea',
-                            'content' => 'daloRADIUS - RADIUS Management',
-                            'readmore' => array( 'href' => 'https://github.com/lirantal/daloradius',
+                            'content' => 'FreeIspRadius',
+                            'readmore' => array( 'href' => 'https://freeisparadius.com',
                                                  'title' => 'Read More',
                                                  'label' => 'Read More',
                                                ),
