@@ -1681,7 +1681,7 @@ if (isset($_POST['submit'])) {
         $configValues['CONFIG_MAIL_SMTPADDR'] = '127.0.0.1';
         $configValues['CONFIG_MAIL_SMTPPORT'] = '25';
         $configValues['CONFIG_MAIL_SMTPAUTH'] = '';
-        $configValues['CONFIG_MAIL_SMTPFROM'] = 'root@daloradius.xdsl.by';
+        $configValues['CONFIG_MAIL_SMTPFROM'] = 'contact@freeispradius.com';
         $configValues['CONFIG_DASHBOARD_DALO_SECRETKEY'] = 'sillykey';
         $configValues['CONFIG_DASHBOARD_DALO_DEBUG'] = '1';
         $configValues['CONFIG_DASHBOARD_DALO_DELAYSOFT'] = '5';
@@ -1765,7 +1765,7 @@ if (isset($_POST['submit'])) {
         $configValues['CONFIG_MAIL_SMTPADDR'] = '127.0.0.1';
         $configValues['CONFIG_MAIL_SMTPPORT'] = '25';
         $configValues['CONFIG_MAIL_SMTPAUTH'] = '';
-        $configValues['CONFIG_MAIL_SMTPFROM'] = 'root@daloradius.xdsl.by';
+        $configValues['CONFIG_MAIL_SMTPFROM'] = 'contact@freeispradius.com';
         $configValues['CONFIG_DASHBOARD_DALO_SECRETKEY'] = 'sillykey';
         $configValues['CONFIG_DASHBOARD_DALO_DEBUG'] = '1';
         $configValues['CONFIG_DASHBOARD_DALO_DELAYSOFT'] = '5';

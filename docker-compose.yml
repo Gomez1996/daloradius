@@ -59,7 +59,7 @@ services:
       - DEFAULT_FREERADIUS_SERVER=radius
       - MAIL_SMTPADDR=127.0.0.1
       - MAIL_PORT=25
-      - MAIL_FROM=root@daloradius.xdsl.by
+      - MAIL_FROM=contact@freeisparadius.com
       - MAIL_AUTH=
 
     volumes:
