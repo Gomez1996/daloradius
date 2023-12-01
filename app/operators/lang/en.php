@@ -33,7 +33,7 @@ $l['all']['daloRADIUS'] = sprintf("daloRADIUS %s", $configValues['DALORADIUS_VER
 $l['all']['daloRADIUSVersion'] = sprintf("version %s ", $configValues['DALORADIUS_VERSION']);
 $l['all']['copyright1'] = 'RADIUS Management, Reporting, Accounting and Billing by <a target="_blank" href="https://freeispradius.com">FreeIspradius</a>';
 $l['all']['copyright2'] = 'FreeIspRadius - Copyright &copy; 2015-' . date('Y') . ' by <a target="_blank" href="https://freeispradius.com">FreeIspRadius</a>.<br>'
-                        . 'daloRADIUS has been enhanced by <a target="_blank" href="https://freeispradius.com">Oceania</a>.';
+                        . 'FreeIspRadius has been enhanced by <a target="_blank" href="https://freeispradius.com">Oceania</a>.';
 $l['all']['ID'] = "ID";
 $l['all']['PoolName'] = "Pool Name";
 $l['all']['CalledStationId'] = "CalledStationId";
