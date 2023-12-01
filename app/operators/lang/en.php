@@ -31,9 +31,9 @@ if (strpos($_SERVER['PHP_SELF'], '/lang/en.php') !== false) {
 
 $l['all']['daloRADIUS'] = sprintf("daloRADIUS %s", $configValues['DALORADIUS_VERSION']);
 $l['all']['daloRADIUSVersion'] = sprintf("version %s ", $configValues['DALORADIUS_VERSION']);
-$l['all']['copyright1'] = 'RADIUS Management, Reporting, Accounting and Billing by <a target="_blank" href="https://github.com/lirantal/daloradius">Liran Tal</a>';
-$l['all']['copyright2'] = 'daloRADIUS - Copyright &copy; 2007-' . date('Y') . ' by <a target="_blank" href="https://github.com/lirantal/daloradius">Liran Tal</a>.<br>'
-                        . 'daloRADIUS has been enhanced by <a target="_blank" href="https://github.com/filippolauria">Filippo Lauria</a>.';
+$l['all']['copyright1'] = 'RADIUS Management, Reporting, Accounting and Billing by <a target="_blank" href="https://freeispradius.com">FreeIspradius</a>';
+$l['all']['copyright2'] = 'FreeIspRadius - Copyright &copy; 2015-' . date('Y') . ' by <a target="_blank" href="https://freeispradius.com">FreeIspRadius</a>.<br>'
+                        . 'daloRADIUS has been enhanced by <a target="_blank" href="https://freeispradius.com">Oceania</a>.';
 $l['all']['ID'] = "ID";
 $l['all']['PoolName'] = "Pool Name";
 $l['all']['CalledStationId'] = "CalledStationId";
@@ -1589,7 +1589,7 @@ $l['helpPage']['repmain'] = <<<EOF
 <h2 class="fs-6">Status</h2>
 <p>Provides information on server status and RADIUS component status.</p>
 EOF;
-$l['helpPage']['repstatradius'] = "Provides general information about the FreeRADIUS daemon and MySQL/MariaDB Database server";
+$l['helpPage']['repstatradius'] = "Provides general information about the FreeIspRadius daemon and MySQL/MariaDB Database server";
 $l['helpPage']['repstatserver'] = "Provides general information about the server itself: CPU Usage, Processes, Uptime, Memory usage, etc.";
 $l['helpPage']['repstatus'] = <<<EOF
 <h1 class="fs-5">Status</h1>

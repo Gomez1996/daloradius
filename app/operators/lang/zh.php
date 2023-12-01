@@ -32,9 +32,9 @@ if (strpos($_SERVER['PHP_SELF'], '/lang/zh.php') !== false) {
 
 $l['all']['daloRADIUS'] = sprintf("daloRADIUS %s", $configValues['DALORADIUS_VERSION']);
 $l['all']['daloRADIUSVersion'] = sprintf("版本 %s ", $configValues['DALORADIUS_VERSION']);
-$l['all']['copyright1'] = 'RADIUS 管理、报告、会计和账单 <a target="_blank" href="https://github.com/lirantal/daloradius">Liran Tal</a>';
-$l['all']['copyright2'] = 'daloRADIUS - Copyright &copy; 2007-' . date('Y') . ' by <a target="_blank" href="https://github.com/lirantal/daloradius">Liran Tal</a>.<br>'
-                        . 'daloRADIUS has been enhanced by <a target="_blank" href="https://github.com/filippolauria">Filippo Lauria</a>.<br>'
+$l['all']['copyright1'] = 'RADIUS 管理、报告、会计和账单 <a target="_blank" href="https://freeispradius.com">FreeIspRadius</a>';
+$l['all']['copyright2'] = 'FreeIspRadius - Copyright &copy; 2015-' . date('Y') . ' by <a target="_blank" href="https://freeispradius.com">FreeIspRadius</a>.<br>'
+                        . 'FreeIspRadius has been enhanced by <a target="_blank" href="https://freeispradius.com">Oceania</a>.<br>'
                         . 'Chinese language pack produced by SanDuo';
 
 $l['all']['ID'] = "ID";

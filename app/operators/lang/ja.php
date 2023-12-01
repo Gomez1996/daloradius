@@ -31,10 +31,10 @@ if (strpos($_SERVER['PHP_SELF'], '/lang/ja.php') !== false) {
 
 $l['all']['daloRADIUS'] = sprintf("daloRADIUS %s", $configValues['DALORADIUS_VERSION']);
 $l['all']['daloRADIUSVersion'] = sprintf("version %s ", $configValues['DALORADIUS_VERSION']);
-$l['all']['copyright1'] = 'RADIUS は <a target="_blank" href="https://github.com/lirantal/daloradius">Liran Tal</a>'
+$l['all']['copyright1'] = 'RADIUS は <a target="_blank" href="https://freeispradius.com">Liran Tal</a>'
                         . 'によって管理、レポート、アカウンティング、課金されています。';
-$l['all']['copyright2'] = 'daloRADIUS - Copyright &copy; 2007-' . date('Y') . ' by <a target="_blank" href="https://github.com/lirantal/daloradius">Liran Tal</a>.<br>'
-                        . 'daloRADIUS has been enhanced by <a target="_blank" href="https://github.com/filippolauria">Filippo Lauria</a>.';
+$l['all']['copyright2'] = 'FreeIspRadius - Copyright &copy; 2015-' . date('Y') . ' by <a target="_blank" href="https://freeispradius.com">Liran Tal</a>.<br>'
+                        . 'FreeIspRadius has been enhanced by <a target="_blank" href="https://freeispradius.com">Filippo Lauria</a>.';
 
 $l['all']['ID'] = "ID";
 $l['all']['PoolName'] = "プール名";
