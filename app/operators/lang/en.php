@@ -1585,7 +1585,7 @@ $l['helpPage']['repmain'] = <<<EOF
 <p>Provides a list of the top N users for bandwidth consumption and session time used.</p>
 <h1 class="fs-5">Sub-Category Reports</h1>
 <h2 class="fs-6">Logs</h2>
-<p>Provides access to the daloRADIUS logfile, FreeRADIUS's logfile, the system's logfile, and the boot logfile.</p>
+<p>Provides access to the FreeIspRadius logfile, the system's logfile, and the boot logfile.</p>
 <h2 class="fs-6">Status</h2>
 <p>Provides information on server status and RADIUS component status.</p>
 EOF;
@@ -1724,7 +1724,7 @@ $l['helpPage']['acctmaintenance'] = <<<EOF
 EOF;
 $l['helpPage']['acctmaintenancecleanup'] = <<<EOF
 <h2 class="fs-6">Cleanup Stale Sessions</h2>
-<p>This feature is used to clean up stale user sessions that remain active in FreeRADIUS (and thus in daloRADIUS), even though the user is no longer connected to the NAS. Stale sessions can occur when the NAS fails to provide an accounting STOP record, resulting in false positive logged-in user records.</p>
+<p>This feature is used to clean up stale user sessions that remain active in FreeIspRADIUS , even though the user is no longer connected to the NAS. Stale sessions can occur when the NAS fails to provide an accounting STOP record, resulting in false positive logged-in user records.</p>
 <p>There are two ways to clean up stale sessions:
 <ul>
 <li>Cleanup by Username: This option will <b>close</b> all open sessions for a specific username in the FreeRADIUS database. Use this option with caution.</li>
