@@ -1567,9 +1567,9 @@ $l['helpPage']['repbatchdetails'] = "Provides details on a specific batch";
 $l['helpPage']['replogs'] = <<<EOF
 <h1 class="fs-5">Logs</h1>
 <h2 class="fs-6">daloRADIUS Log</h2>
-<p>Monitors the daloRADIUS logfile.</p>
+<p>Monitors the FreeIspRadius logfile.</p>
 <h2 class="fs-6">RADIUS Log</h2>
-<p>Monitors the FreeRADIUS logfile, equivalent to <code>/var/log/freeradius/radius.log</code> or <code>/usr/local/var/log/radius/radius.log</code>. Other possible locations for the logfile may be used, so please adjust the configuration accordingly.</p>
+<p>Monitors the FreeIspRADIUS logfile, equivalent to <code>/var/log/freeIspradius/radius.log</code> or <code>/usr/local/var/log/radius/radius.log</code>. Other possible locations for the logfile may be used, so please adjust the configuration accordingly.</p>
 <h2 class="fs-6">System Log</h2>
 <p>Monitors the operating system logfile, equivalent to <code>/var/log/syslog</code> or <code>/var/log/messages</code> on most platforms. Other possible locations for the logfile may be used, so please adjust the configuration accordingly.</p>
 <h2 class="fs-6">Boot Log</h2>
@@ -1580,7 +1580,7 @@ $l['helpPage']['repmain'] = <<<EOF
 <h2 class="fs-6">Online Users</h2>
 <p>Provides a list of all users currently online by checking the accounting table in the database. The check is for users with no end time (AcctStopTime) set. It's important to note that some of these users may have stale sessions due to NAS failures in sending accounting-stop packets. Note that this tab will only be visible if there are online users.</p>
 <h2 class="fs-6">Last Connection Attempts</h2>
-<p>Provides a list of all Access-Accept and Access-Reject (successful and failed) logins for users. These are retrieved from the database's postauth table, which must be defined in FreeRADIUS's config file to enable logging.</p>
+<p>Provides a list of all Access-Accept and Access-Reject (successful and failed) logins for users. These are retrieved from the database's postauth table, which must be defined in FreeIspRadius's config file to enable logging.</p>
 <h2 class="fs-6">Top Users</h2>
 <p>Provides a list of the top N users for bandwidth consumption and session time used.</p>
 <h1 class="fs-5">Sub-Category Reports</h1>
@@ -1596,7 +1596,7 @@ $l['helpPage']['repstatus'] = <<<EOF
 <h2 class="fs-6">Server Status</h2>
 <p>Displays general information about the server, including CPU usage, number of running processes, uptime, memory usage, and more.</p>
 <h2 class="fs-6">RADIUS Status</h2>
-<p>Displays general information about the FreeRADIUS daemon and the MySQL database server.</p>
+<p>Displays general information about the FreeIspRadius daemon and the MySQL database server.</p>
 EOF;
 $l['helpPage']['reptopusers'] = "Records for top users, those which are listed below have gained the highest consumption of session time or bandwidth usage. Listing users of category: ";
 $l['helpPage']['repusername'] = "Records found for user:";
