@@ -1084,8 +1084,8 @@ to disconnect a user and terminate his/her session in a given NAS.<br/>
 ";
 $l['helpPage']['configmainttestuser'] = "
 <h200><b>Test User Connectivity</b></h200> - Send an Access-Request to the RADIUS Server to check if a user credentials are valid.<br/>
-daloRADIUS uses the radclient binary utility to perform the test and returns the results of the command after it finishes. <br/>
-daloRADIUS counts on the radclient binary being available in your \$PATH environment variable, if it is not, please make
+FreeIspRadius uses the radclient binary utility to perform the test and returns the results of the command after it finishes. <br/>
+FreeIspRadius counts on the radclient binary being available in your \$PATH environment variable, if it is not, please make
 corrections to the library/extensions/maintenance_radclient.php file.<br/><br/>
 
 Please note that it may take a while for the test to finish (up to several seconds [10-20 seconds or so]) because of failures and
@@ -1103,8 +1103,8 @@ For terminating a user's session it is required that the NAS support the PoD or 
 documentation for this. Moreover, it is required to know the NAS ports for PoD or CoA packets, whereas newer NASs use port 3799
 while other ones are configured to receive the packet on port 1700.
 
-daloRADIUS uses the radclient binary utility to perform the test and returns the results of the command after it finishes. <br/>
-daloRADIUS counts on the radclient binary being available in your \$PATH environment variable, if it is not, please make
+FreeispRadius uses the radclient binary utility to perform the test and returns the results of the command after it finishes. <br/>
+FreeIspRadius counts on the radclient binary being available in your \$PATH environment variable, if it is not, please make
 corrections to the library/extensions/maintenance_radclient.php file.<br/><br/>
 
 Please note that it may take a while for the test to finish (up to several seconds [10-20 seconds or so]) because of failures and

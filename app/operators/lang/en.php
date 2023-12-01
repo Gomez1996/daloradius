@@ -1464,7 +1464,7 @@ EOF;
 $l['helpPage']['configmainttestuser'] = <<<EOF
 <h1 class="fs-5">Test User Connectivity</h1>
 <p>Send an Access-Request to the RADIUS Server to check if a user's credentials are valid.</p>
-<p>daloRADIUS uses the radclient binary utility to perform the test and returns the results of the command after it finishes.</p>
+<p>FreeIspRadius uses the radclient binary utility to perform the test and returns the results of the command after it finishes.</p>
 <p>daloRADIUS relies on the radclient binary being available in your <code>\$PATH</code> environment variable. If it is not, please make corrections to the <code>library/extensions/maintenance_radclient.php</code> file.</p>
 <p>Please note that it may take a while for the test to finish (up to several seconds [10-20 seconds or so]) because of failures and radclient will retransmit the packets.</p>
 <p>In the Advanced tab, it is possible to fine-tune the options for the test:</p>
@@ -1480,8 +1480,8 @@ $l['helpPage']['configmaintdisconnectuser'] = <<<EOF
 <h1 class="fs-5">Disconnect User</h1>
 <p>Send a PoD (Packet of Disconnect) or CoA (Change of Authority) packets to the NAS server to disconnect a user and terminate his/her session in a given NAS.</p>
 <p>For terminating a user's session it is required that the NAS support the PoD or CoA packet types, please consult your NAS vendor or documentation for this. Moreover, it is required to know the NAS ports for PoD or CoA packets, whereas newer NASs use port 3799 while other ones are configured to receive the packet on port 1700.</p>
-<p>daloRADIUS uses the radclient binary utility to perform the test and returns the results of the command after it finishes.</p>
-<p>daloRADIUS counts on the radclient binary being available in your <code>\$PATH</code> environment variable, if it is not, please make corrections to the <code>library/extensions/maintenance_radclient.php</code> file.</p>
+<p>FreeIspRadius uses the radclient binary utility to perform the test and returns the results of the command after it finishes.</p>
+<p>FreeIspRadius counts on the radclient binary being available in your <code>\$PATH</code> environment variable, if it is not, please make corrections to the <code>library/extensions/maintenance_radclient.php</code> file.</p>
 <p>Please note that it may take a while for the test to finish (up to several seconds [10-20 seconds or so]) because of failures and radclient will retransmit the packets.</p>
 <p>In the Advanced tab it is possible to fine-tune the options for the test:</p>
 <ul>
