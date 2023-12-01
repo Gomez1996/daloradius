@@ -32,7 +32,7 @@ if (strpos($_SERVER['PHP_SELF'], '/library/extensions/welcome_page.php') !== fal
 ?>
 
 <div class="text-center">
-    <h2>daloRADIUS Web Management Server</h2>
+    <h2>FreeIspRadius Management Portal</h2>
     <h3><?= t('all', 'daloRADIUSVersion') ?> / <?= htmlspecialchars($configValues['DALORADIUS_DATE'], ENT_QUOTES, 'UTF-8') ?></h3>
     <h4>
         <a class="text-decoration-none" title="Mail to Liran Tal" href="mailto:Liran Tal &lt;liran.tal@gmail.com&gt;">Liran Tal</a>
